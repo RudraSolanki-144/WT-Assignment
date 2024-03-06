@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-body{
+    background-image: url(./images/home-girl-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.flex{
+    display: flex;
+}
+.flex-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-wraper{
+    font-size: 30px;
+    color: var(--orange);
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(67, 67, 67);
+    transition: 0.3s;
+}
+.btn-link{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color: rgb(157, 106, 12);
+    text-decoration: underline;
+}
+
+/* header ----------------------------------------------------------*/
+
+header{
+    display: flex;
+    padding:3rem 12rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.916);
+}
+
+ul{
+    list-style-type: none;
+    margin-inline: 5px;
+    font-size: 1.7rem;
+    gap: 15px;
+    align-items: center;
+}
+li:nth-child(5){
+    background-color: rgba(234, 145, 72, 0.207); 
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.searchbar-wrapper{
+    border: 2px solid rgba(128, 128, 128, 0.366);
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 50%;
+}
+.searchbar-wrapper input{
+    border: none;
+    padding-block: 10px;
+    width: 100%;
+    outline: none;
+}
+.serch-icon{
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+.serch-icon i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* home--------------------------------------------- */
+.home{
+    color: white;
+}
+.home-contant{
+    float: right;
+    padding: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.home-contant h3{
+    font-size: 3rem;
+}
+.home-contant h1{
+    font-size: 6rem;
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 5px black;
+}
+
+/* scroll-bar------------------------------------ */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+      cursor: pointer;
+      background: rgba(232, 183, 85, 0.664); 
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      cursor: pointer;
+    background: var(--orange); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(236, 75, 75); 
+  }
