@@ -124,6 +124,9 @@ li:nth-child(5){
     transform: translateY(-5px);
     box-shadow: 0px 4px 5px black;
 }
+.home-btns{
+    gap: 20px;
+}
 
 /* scroll-bar------------------------------------ */
 
@@ -137,7 +140,7 @@ li:nth-child(5){
       background: rgba(232, 183, 85, 0.664); 
     }
     
-    ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
       cursor: pointer;
     background: var(--orange); 
   }

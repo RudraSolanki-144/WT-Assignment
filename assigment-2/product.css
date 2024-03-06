@@ -1,0 +1,13 @@
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+.product-detail-section{
+    padding: 3rem 10rem;
+}
+.product-img{
+    width: 50%;
+}
+.product-img img{
+    width: 90%;
+}

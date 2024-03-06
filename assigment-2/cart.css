@@ -69,7 +69,7 @@
 .prc-del-wrap div{
     border: 2px solid var(--orange);
     border-radius: 5px;
-    padding: 3px;
+    padding: 6px;
     cursor: pointer;
 }
 .del-icon{
