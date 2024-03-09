@@ -148,3 +148,12 @@ li:nth-child(5){
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(236, 75, 75); 
   }
+
+  
+/* hide-number-updaters */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
