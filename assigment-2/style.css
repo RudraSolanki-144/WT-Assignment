@@ -95,9 +95,10 @@ li:nth-child(5){
 /* home--------------------------------------------- */
 .home{
     color: white;
+    display: flex;
+    justify-content: end;
 }
 .home-contant{
-    float: right;
     padding: 13rem;
     display: flex;
     flex-direction: column;
@@ -131,7 +132,7 @@ li:nth-child(5){
 /* scroll-bar------------------------------------ */
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 2px;
     height: 5px;
 }
 
@@ -157,3 +158,74 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+/* footer ------------------------------------------- */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding:3rem 0;
+}
+.copyright{
+    color: white;
+    margin-top: 10px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+footer i{
+    font-size: 1.6rem;
+}
+.media-icon-wrapper{
+    width: 50px;
+    border: 1px solid white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .media-icon-wrapper::after{
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .media-icon-wrapper:hover::after{
+    bottom: 0;
+  }
+  .insta-icon::after{
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  }
+  .youtube-icon::after{
+    background-color: #FF0000;
+  }
+  .snap-icon::after{
+    background-color: #FFFC00;
+  }
+  .snap-icon:hover{
+    color: black;
+    font-weight: bold;
+  }
+  .facebook-icon::after{
+    background-color: #1877F2;
+  }
+  .x-icon::after{
+    background-color: #1DA1F2;
+  }
+  .linkedin-icon::after{
+    background-color: #0077B5;
+  }

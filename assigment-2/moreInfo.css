@@ -45,8 +45,7 @@ body{
 }
 .benifit-footer{
     background-color: rgba(250, 235, 215, 0.348);
-    position: absolute;
-    bottom: 0;
+    margin-block: 5rem;
     display: flex;
     padding: 7rem;
     justify-content: center;

@@ -1,6 +1,9 @@
 :root{
     font-size: 10px;
     --orange:#f15432
+}
+.contact-section{
+    padding-bottom: 3rem;
 } 
 .contact-head{
     width: 40%;
